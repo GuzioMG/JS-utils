@@ -10,11 +10,11 @@ Read `.gitpod.yml`, edit code and just submit a PR.
 
 A set of small tools, that every JS developer may need.
 
-Some Encryption/Decryption functions and Thread.sleep() in JS.
+Some Encryption/Decryption functions and `Thread.sleep()` in JS.
 
 ## Usage
 
-Just add `SOON (tm)` to the top of your HTML body.
+Just add `https://github.com/GuzioMG/JS-utils/blob/master/bin/c.js` to the top of your HTML body.
 
 You may want to add something else, but I'll explain that soon.
 
