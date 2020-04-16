@@ -1,6 +1,4 @@
 tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
+  - init: echo -e "\033[0;31mIMPORTANT! \033[1;33mAFTER FINISHING YOUR WORK, PLEASE USE A JS MINIMIZER TOOL TO \"COMPILE\" THE SCRIPT AND PUT YOUR RESULTS IN \"c.sj\" file\033[0;37m, WHICH STANDS FOR \"compressed.js\".\033[0m"
 image:
   file: .gitpod.Dockerfile
