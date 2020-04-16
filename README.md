@@ -14,7 +14,7 @@ Some Encryption/Decryption functions and `Thread.sleep()` in JS.
 
 ## Usage
 
-Just add `https://github.com/GuzioMG/JS-utils/blob/master/bin/c.js` to the top of your HTML body.
+Just add `<script src="https://github.com/GuzioMG/JS-utils/blob/master/bin/c.js"></script>` to the top of your HTML body.
 
 You may want to add something else, but I'll explain that soon.
 
