@@ -15,7 +15,7 @@ Some Encryption/Decryption functions and `Thread.sleep()` in JS.
 ## Usage
 
 If you're running it from the browser *(which is an intended use scenario, btw)*, just
-download the "bin/c.sj" file, which stands for "compressed.js",
+download the "bin/c.js" file, which stands for "compressed.js",
 put it in the same folder as your script and
 add `<script src="./c.js"></script>` to the top of your HTML body.
 
