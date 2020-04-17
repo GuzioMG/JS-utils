@@ -19,6 +19,12 @@ download the "bin/c.sj" file, which stands for "compressed.js",
 put it in the same folder as your script and
 add `<script src="./c.js"></script>` to the top of your HTML body.
 
+If you're running it from the `node.js`,
+add a Git reference to this library
+and add a `require();` to "bin/node.js".
+
+> Troubleshooting tip: If you're using `node.js`, type e.g. `jsu.sleep(200)` instead of just `sleep(200)`.
+
 You may want to add something else, but I'll explain that soon.
 
 ## Documentation
