@@ -14,7 +14,10 @@ Some Encryption/Decryption functions and `Thread.sleep()` in JS.
 
 ## Usage
 
-Just add `<script src="https://github.com/GuzioMG/JS-utils/blob/master/bin/c.js"></script>` to the top of your HTML body.
+If you're running it from the browser *(which is an intended use scenario, btw)*, just
+download the "bin/c.sj" file, which stands for "compressed.js",
+put it in the same folder as your script and
+add `<script src="./c.js"></script>` to the top of your HTML body.
 
 You may want to add something else, but I'll explain that soon.
 
@@ -28,7 +31,7 @@ Encryption: `encrypt(key, text)`  --> Encrypted text.
 
 Decryption: `decrypt(key, text)`  --> Decrypted text.
 
-> Troubleshooting tip: those are based on https://github.com/travist/jsencrypt library. You'll need it if you want the above functions to work. Your best bet is adding `<script src="https://raw.githubusercontent.com/travist/jsencrypt/ea32a5161cfd79218fa30b4c8f661615d21b40a9/bin/jsencrypt.min.js"></script>` to the top of your HTML body and referencing to any jQuery library (more on https://github.com/travist/jsencrypt).
+> Troubleshooting tip: those are based on https://github.com/travist/jsencrypt library. You'll need it if you want the above functions to work. Instructions in README.md from https://github.com/travist/jsencrypt repo.
 
 ### Signing
 
@@ -38,10 +41,12 @@ Sign: `sign(key, text)`  --> Signed text.
 
 Verify: `verify(key, text)`  --> Boolean.
 
-> Troubleshooting tip: those are based on https://github.com/travist/jsencrypt library. You'll need it if you want the above functions to work. Your best bet is adding `<script src="https://raw.githubusercontent.com/travist/jsencrypt/ea32a5161cfd79218fa30b4c8f661615d21b40a9/bin/jsencrypt.min.js"></script>` to the top of your HTML body and referencing to any jQuery library (more on https://github.com/travist/jsencrypt).
+> Troubleshooting tip: those are based on https://github.com/travist/jsencrypt library. You'll need it if you want the above functions to work. Instructions in README.md from https://github.com/travist/jsencrypt repo.
 
 ### `Thread.sleep();`
 
 JS doesn't have it. But it doesn't mean, you can't hack your way into it...
 
 Sleep: `sleep(ms)`  --> (void)
+
+> Troubleshooting tip: refer to sleeper.js for more info
